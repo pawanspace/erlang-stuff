@@ -8,7 +8,7 @@ dolphin1() ->
 			From ! "How about no?";
 		{From, fish} ->
 			From ! "so long and thanks for all the fish!";
-		_ ->
+		_Shit ->
 			io:format("Heh, We're smarter than you humans. ~n")
 	end.
 
